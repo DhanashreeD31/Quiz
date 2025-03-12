@@ -1,0 +1,27 @@
+name: learnsphere
+description: A Flutter Duolingo-like app with AI integration.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0+3
+  path: ^1.8.0
+  tflite_flutter: ^0.11.0 # This should be directly under the main dependencies block, not nested
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/models/quiz_model.tflite # Make sure to add your model here too
+
+
