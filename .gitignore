@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Android/Gradle related
+android/.gradle/
+android/app/.gradle/
+android/gradle/wrapper/gradle-wrapper.jar
+gradle/
+gradlew
+gradlew.bat
+local.properties
